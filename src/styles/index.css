@@ -1,12 +1,29 @@
+/* Mis estilos CSS */
 
-/* 
+.bigCounter{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: 20%;
+    font-size: 50px;
+}
 
-    You can write your own styles here...
+.nums{
+    background-color:rgb(37, 36, 36);
+    padding: 20px;
+    width: 10%;
+    font-weight: bold;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.container{
+    background-color: blue;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1{
+    color: aliceblue;
+}
